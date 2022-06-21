@@ -1,0 +1,53 @@
+/* CSS RESET */
+
+body{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+
+div{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 14px;
+    font-family: verdana;
+    padding: 10px;
+    top: 200px;
+    left: 500px;
+    z-index: 2;
+    text-align: justify;
+    visibility: visible;
+}
+
+div img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+}
+#sol{
+    background-color: aqua;
+    border-color: brown;
+    color: azure;
+
+}
+
+#floress{
+    background-color: rgb(122, 228, 233);
+    border-color: rgb(203, 198, 73);
+    color: rgb(47, 164, 164);
+    
+}
+
+#porDoSol{
+    background-color: rgb(141, 198, 61);
+    border-color: rgb(0, 0, 0);
+    color: rgb(150, 22, 118);
+    
+}

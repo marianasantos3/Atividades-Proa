@@ -1,0 +1,53 @@
+div{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    border: solid 1px #fff;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+}
+
+div img{
+    width: 100%;
+    height: 100%;
+}
+
+
+div img:hover{
+    filter: none;
+    transition: all 2.0s;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.saturate {
+    filter: saturate(3);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.invert{
+    filter: invert(100%);
+}
+
+.blur{
+    filter: blur(3px);
+}
+
+.opacity{
+    filter: opacity(30%);
+}
+
+.brightness{
+    filter: brightness(0.25);
+}
+
+
+.contrast{
+    filter: contrast(160%);
+}

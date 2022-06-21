@@ -1,0 +1,119 @@
+/* CSS RESET */
+
+main>div{
+    width: 300px;
+    height: 200px;
+    float: left;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}  
+
+.foto{
+    width: 80%;
+}
+
+#foto img{
+    -webkit-transform: rotate(0deg);
+    transition: 1s all;
+}
+
+#foto img:hover {
+    -webkit-transform: rotate(180deg);
+    transition: 2s all;
+}
+
+#foto1 img{
+    -webkit-transform: rotateX(10deg);
+    transition: 2s all;
+}
+
+
+#foto1 img:hover {
+    -webkit-transform: rotateX(70deg);
+    transition: 2s all;
+}
+
+#foto2 img{
+    -webkit-transform: rotateY(20deg);
+    transition:1s all;
+}
+
+
+#foto2 img:hover {
+    -webkit-transform: rotateY(360deg);
+    transition: 1s all;
+}
+
+#foto3 img{
+    transition:2s all;
+}
+
+
+#foto3 img:hover {
+    -webkit-transform: translate(100px, 50px);
+    transition: 2s all;
+}
+
+#foto4 img{
+    transition:2s all;
+}
+
+
+#foto4 img:hover {
+    -webkit-transform: translateX(200px);
+    transition: 2s all;
+}
+
+#foto5 img{
+    transition-duration: 0.5s;
+}
+
+
+#foto5 img:hover {
+    -webkit-transform: translate(100px, 150px) rotate(180deg);
+    transition: 0.5s ease-out;
+}
+
+#foto6 img{
+    transition: 2s all;
+    -webkit-transform: scale(1.0);
+}
+
+
+#foto6 img:hover {
+    -webkit-transform: scale(2.0);
+    transition: 2s all;
+}
+
+#foto7 img{
+    transition: 2s all;
+}
+
+
+#foto7 img:hover {
+    -webkit-transform: scale(0.5);
+    transition: 2s all;
+}
+
+#foto8 img{
+    transition-duration: 0.3s;
+}
+
+
+#foto8 img:hover {
+    -webkit-transform: scale(1.8) translate(120px, 80px) rotate(360deg);
+    transition: 1s all;
+}
+
+#foto9 img{
+    transition-duration: 0.5s;
+}
+
+
+#foto9 img:hover {
+    -webkit-transform: scale(0.5) rotate(-90deg);
+    transition-duration: 0.5s;
+}

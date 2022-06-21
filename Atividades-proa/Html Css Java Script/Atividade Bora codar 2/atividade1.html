@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Maça </title>
+
+</head>
+    <body>
+        <script>
+
+            let quantidade = parseFloat(prompt("informe a quantidade de maça desejada"));
+            var valorTotal = 0.0;
+
+            if(quantidade < 12){
+                valorTotal = quantidade * 3.50;
+            document.write("o valor de cada maça é de 3.50 Reais cada <br>");
+
+            } else{
+                valorTotal = quantidade * 2.50;
+            document.write("o valor de cada maça é de 2.50 Reais cada <br>");
+
+            }
+
+            document.write("o valor total a pagar é de : " + valorTotal + ",00" + " Reais <br>");
+            
+
+    
+        </script>
+    </body>
+</html>

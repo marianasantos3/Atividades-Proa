@@ -1,0 +1,214 @@
+/*css reset*/
+
+*{
+    border: o;
+    margin: o;
+    border: 0;
+
+}
+
+body{
+    font-family: verdana;
+    text-align: center;
+}
+
+main{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: rgb(158, 88, 88);
+    margin: auto;
+}
+
+#cabecalho_topo{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(8, 2, 2);
+    color: #FFF;
+    font-size: 40px;
+
+}
+
+#menu_superior{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(106, 202, 82);
+}
+
+#menu_superior a{
+    width: 16.66%;
+    background-color: aqua;
+    text-decoration: none;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#menu_superior a:hover{
+    background-color: rgb(38, 224, 53); 
+    color: rgb(136, 136, 202);
+    transition: 2s all;
+}
+
+#menu_lateral{
+    position: relative;
+    width: 20%;
+    height: 500px;
+    background-color: rgb(202, 189, 9);
+    float: left;
+}
+
+#menu_lateral a{
+    width: 90%;
+    background-color: #bbb;
+    text-align: left;
+    padding: 5%;
+    height: 21px ;
+    padding-top: 15px ;
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    border-bottom: 1px solid #DDD;
+}
+
+#menu_lateral a:hover{
+    background-color: black;
+    border-color: #AA2;
+}
+
+section {
+    position: relative;
+    width: 60%;
+    height: 500px;
+    background-color: rgb(202, 158, 63);
+    float: left;
+}
+
+#cabecalho_meio{
+    position: relative;
+    width: 90%;
+    height: 35px;
+    background-color: #FFF;
+    margin: auto;
+    padding-top: 15px;
+}
+
+#slayder{
+    position: relative;
+    width: 90%;
+    height: 200px;
+    background-color: rgb(209, 124, 124);
+    margin: auto;
+    margin-top: 10px;
+}
+
+p{
+    position: relative;
+    width: 90%;
+    height: 120px;
+    background-color: rgb(83, 196, 68);
+    margin: auto;
+    margin-top: 10px;
+}
+
+#caixa1,#caixa2,#caixa3{
+    position:relative;
+    width:30%;
+    height: 73px;
+    background-color:#999;
+    color:#FFF;
+    margin-top:10px;
+    float:left;
+    }
+    
+    
+    #caixa1{
+    margin-left:2.5%;
+    }
+    
+    #caixa2{
+    margin-left:2.5%;
+    margin-right:2.5%;
+    }
+
+
+
+aside {
+    position: relative;
+    width: 20%;
+    height: 500px;
+    background-color: rgb(18, 163, 207);
+    float: left;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(8, 2, 2);
+    color: #FFF;
+    font-size: 20px;
+    clear: left;
+}
+
+@media only screen and (max-width:480px)
+{
+  
+    #menu_lateral, aside{
+        display: none;
+    }
+ 
+section {
+    width: 100%
+
+}
+
+#menu_superior a {
+    width: 100%;
+    margin-top: 2px;
+    font-size: 20px;
+
+}
+#header
+
+
+
+@media only screen and (min-width:481px){
+@media only screen and (max-width:720px)
+{
+
+
+
+#menu_lateral, aside{
+display:none; /*retira fisicamente o componente */
+}
+
+
+
+section{
+width:100%;
+}
+
+
+
+#menu_superior a{
+width:33.33%;
+}
+}
+}
+
+#caixa-1 img{
+    width: 100%;
+    height: 80px;
+}
+#caixa-2 img{
+    width: 100%;
+    height: 80px;
+}
+#caixa-3 img{
+    width: 100%;
+    height: 80px;
+}

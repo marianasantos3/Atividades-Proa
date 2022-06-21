@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> contas </title>
+
+</head>
+    <body>
+        <script>
+
+document.write("Fazendo contas <br>");
+
+            let valor = parseInt(prompt("informe a quantidade de lados"));
+            let centimetros = parseFloat(prompt("Digites os centimetros dos lados"));
+            let result;
+
+
+            switch (valor){
+                case 1:
+                document.write("NÃO É UM POLIGONO ");
+                break
+
+                case 2:
+                document.write("NÃO É UM POLIGONO ");
+                break
+
+                case 3:
+                result = centimetros + centimetros + centimetros;
+                document.write("TRIANGULO! O Perimetro do triangulo é: " + result);
+                break
+
+                case 4:
+                    result = centimetros * centimetros;
+                    document.write("QUADRADO! o valor da area do quadrado é: " + result)
+                break
+
+                case 5:
+                
+                    document.write("PENTAGULO! :  ")
+                break
+
+                default:
+
+                    document.write("POLIGONO! NÃO INDENTIFICADO");
+                
+        }
+
+            
+
+    
+        </script>
+    </body>
+</html>

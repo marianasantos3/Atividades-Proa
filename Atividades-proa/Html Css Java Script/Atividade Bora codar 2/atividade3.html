@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> contas </title>
+
+</head>
+    <body>
+        <script>
+
+document.write("Fazendo contas <br>");
+
+            let valor1 = parseInt(prompt("informe 0 primeiro valor"));
+            let valor2 = parseInt(prompt("informe o segundo valor"));
+
+            var valor = parseInt(prompt("Digite 1: para Adição:  Digite 2: para subtração:  Digite 3: para Divisão:  Digite 4: para multiplicação: "))
+
+
+            var adicao
+            var subtracao
+            var divisao
+            var multiplicacao
+
+            switch (valor){
+                case 1:
+                adicao = valor1 + valor2;
+                document.write("A soma é:  " + adicao)
+                break
+
+                case 2:
+                    subtracao = valor1 - valor2;
+                    document.write("A Subtração do valor1 - o valor2 é :  " + subtracao)
+                break
+
+                case 3:
+                    divisao = valor1 / valor2
+                    document.write("A Divisão do valor1 /  valor2 é :  " + divisao)
+                break
+
+                case 4:
+                    multiplicacao = valor1 * valor2
+                    document.write("A multiplicação do valo1 * valor2 é :  " + multiplicacao)
+                break
+
+                default:
+                
+        }
+
+            
+
+    
+        </script>
+    </body>
+</html>

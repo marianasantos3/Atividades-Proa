@@ -1,0 +1,81 @@
+/* CSS RESET */
+
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+#fundo{
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(54, 153, 170);
+    margin: auto;
+    margin-top: 120px;
+}
+
+h2{
+    text-align: center;
+}
+
+#camada1{
+    width: 100px;
+    height: 380px;
+    background-color: rgb(132, 163, 163);
+    text-align: center;
+    float: left; 
+}
+#camada2{
+    width: 100px;
+    height: 380px;
+    background-color: rgb(132, 163, 163);
+    text-align: center;
+    float: left;
+}
+
+#camada2 h1{ 
+  font-size: 17px;
+}
+
+#conteudo{
+    width: 800px;
+    height: 380px;
+    background-color: rgba(204, 204, 204, 0.747);
+    text-align: center;
+    margin: auto;
+    float:left;
+}
+
+#rodape{
+    width: 1000px;
+    background-color: rgb(58, 85, 175);
+    text-align: center;
+
+}
+
+#camada3 {
+    position: absolute;
+    width: 170px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(189, 17, 160);
+    top: 460px;
+    left: 950px;
+}
+
+#camada4 {
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(250, 252, 252);
+    margin: 5px;
+}
+
+#camada5 {
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(248, 250, 250);
+    margin: 5px;
+}
